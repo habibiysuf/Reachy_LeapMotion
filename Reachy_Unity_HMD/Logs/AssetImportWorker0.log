@@ -1,0 +1,483 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.0b10 (19f63eee530c) revision 1701438'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16279 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.2.0b10\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/doc_lana/Reachy_Rev_1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52634
+Successfully changed project path to: D:/doc_lana/Reachy_Rev_1
+D:/doc_lana/Reachy_Rev_1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.16 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.76 ms.
+Initialize engine version: 2020.2.0b10 (19f63eee530c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.2.0b10/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/doc_lana/Reachy_Rev_1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.5167
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.2.0b10/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.2.0b10/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.2.0b10/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.2.0b10/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001830 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.60 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001780 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.52.1
+Mono: successfully reloaded assembly
+- Completed reload, in  1.212 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2149.
+Total: 2.596000 ms (FindLiveObjects: 0.445800 ms CreateObjectMapping: 0.114800 ms MarkObjects: 1.949300 ms  DeleteObjects: 0.084700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/WsIO.cs
+  artifactKey: Guid(0272eb6ad2d7e5040b252dfb1fd77a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WsIO.cs using Guid(0272eb6ad2d7e5040b252dfb1fd77a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38092f7c1fe91367d58fd7bec1cfabc2') in 0.042735 seconds
+  Import took 0.047060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Scripts/ForceSensor.cs
+  artifactKey: Guid(67f183b9d26345c4697264dfdcfc7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ForceSensor.cs using Guid(67f183b9d26345c4697264dfdcfc7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fcfb6be573d24cf23d6b8394403c4e') in 0.007362 seconds
+  Import took 0.012533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Scripts/JointController.cs
+  artifactKey: Guid(9e2f2f6183adade43836dce58e37227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/JointController.cs using Guid(9e2f2f6183adade43836dce58e37227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d89334cb90905fb6f9c6064ff991064') in 0.011140 seconds
+  Import took 0.016702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Scripts/ReachyController.cs
+  artifactKey: Guid(58dc7fcd30b834b47b3135c5d9750812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ReachyController.cs using Guid(58dc7fcd30b834b47b3135c5d9750812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33f21830af43d532788a065dde8b6fb') in 0.007395 seconds
+  Import took 0.012563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.597772 seconds.
+  path: Assets/Ardity/Prefabs
+  artifactKey: Guid(90755fd29ca519f43a5b519496f18763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ardity/Prefabs using Guid(90755fd29ca519f43a5b519496f18763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4686d1251e921595432cb47b7714f8e0') in 0.005805 seconds
+  Import took 0.009541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Ardity/Setup Guide.pdf
+  artifactKey: Guid(8f2f455235421ee4c876e07c92dc3b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ardity/Setup Guide.pdf using Guid(8f2f455235421ee4c876e07c92dc3b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882f617d8ebda5bbc31750b312ff4f53') in 0.017818 seconds
+  Import took 0.021833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Ardity/Scenes
+  artifactKey: Guid(fb742987ae352b74198b5fbb5071aaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ardity/Scenes using Guid(fb742987ae352b74198b5fbb5071aaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692a0bd6aa829d74cf4a92973e053d18') in 0.006013 seconds
+  Import took 0.011037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Ardity/Scripts
+  artifactKey: Guid(1bc0a682385922e4f9c223627cc3e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ardity/Scripts using Guid(1bc0a682385922e4f9c223627cc3e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbd30f88f1d60e7fa3a110c462dc0ac') in 0.005964 seconds
+  Import took 0.009968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.326928 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(1dacea32b971f1d4ba9aaeb517f95ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(1dacea32b971f1d4ba9aaeb517f95ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8574821e5be08b6242ab85f630f673ac') in 0.021607 seconds
+  Import took 0.025764 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.2.0b10/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002229 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.92 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.1 MB.
+System memory in use after: 54.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2155.
+Total: 2.839600 ms (FindLiveObjects: 0.597300 ms CreateObjectMapping: 0.186000 ms MarkObjects: 2.026200 ms  DeleteObjects: 0.028200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.305440 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9b302f6e373c26045a2cbb067a7d515c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9b302f6e373c26045a2cbb067a7d515c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee3065e77b33e66858666ac57f7d296') in 0.006623 seconds
+  Import took 0.014599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Oculus
+  artifactKey: Guid(4a64240ad2320904c98ea175aa5e735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus using Guid(4a64240ad2320904c98ea175aa5e735c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c6395ade8f3807512535148f273050') in 0.014529 seconds
+  Import took 0.022214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(9e02b5463108fa442920febb2ff37e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(9e02b5463108fa442920febb2ff37e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062b8b8baa7dbf528e0378e8c78f5c6a') in 0.010796 seconds
+  Import took 0.016867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2e173d3eb3a62f54490656fee9151199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(2e173d3eb3a62f54490656fee9151199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512e5098cef9593ee573c313ec8723fb') in 0.003336 seconds
+  Import took 0.011141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/XR
+  artifactKey: Guid(cff068ffdb3dfa44fa3cee047355eec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(cff068ffdb3dfa44fa3cee047355eec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac4fbb027ab8d0d3f43a7508403c9d7') in 0.011099 seconds
+  Import took 0.017992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Meshes
+  artifactKey: Guid(c417b4d387adb964089ffca9ab6920d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes using Guid(c417b4d387adb964089ffca9ab6920d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff99ca0a3db5a9d98f89781a20cb4890') in 0.009086 seconds
+  Import took 0.014430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(106f3118ae52d144ea7340a9aebd5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(106f3118ae52d144ea7340a9aebd5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b28ca1738f74b60a09c43b03fab0ac') in 0.007741 seconds
+  Import took 0.012624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(a412d9561d8495f4580187d37e988dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(a412d9561d8495f4580187d37e988dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244da1add30a53c7e150c7a11c446363') in 0.003005 seconds
+  Import took 0.006980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(106f3118ae52d144ea7340a9aebd5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(106f3118ae52d144ea7340a9aebd5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b28ca1738f74b60a09c43b03fab0ac') in 0.002506 seconds
+  Import took 0.006986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(f580a5490200448419d0e132cfa9848b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(f580a5490200448419d0e132cfa9848b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0790dc4f4504a89e2a7ada304b68e5') in 0.126961 seconds
+  Import took 0.132193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(a412d9561d8495f4580187d37e988dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(a412d9561d8495f4580187d37e988dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244da1add30a53c7e150c7a11c446363') in 0.003017 seconds
+  Import took 0.009328 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.2.0b10/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001754 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.74 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001962 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.246 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2201.
+Total: 2.360600 ms (FindLiveObjects: 0.395100 ms CreateObjectMapping: 0.084200 ms MarkObjects: 1.857500 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.2.0b10/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001587 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.33 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001868 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2207.
+Total: 2.289400 ms (FindLiveObjects: 0.412200 ms CreateObjectMapping: 0.095000 ms MarkObjects: 1.757900 ms  DeleteObjects: 0.023100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.2.0b10/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001509 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.34 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001841 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2213.
+Total: 2.116800 ms (FindLiveObjects: 0.403700 ms CreateObjectMapping: 0.090100 ms MarkObjects: 1.597900 ms  DeleteObjects: 0.024200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.2.0b10/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001777 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.88 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001843 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2219.
+Total: 2.264100 ms (FindLiveObjects: 0.373100 ms CreateObjectMapping: 0.077600 ms MarkObjects: 1.787900 ms  DeleteObjects: 0.024000 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.2.0b10/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001528 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.59 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\doc_lana\Reachy_Rev_1\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2225.
+Total: 2.594400 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.090500 ms MarkObjects: 2.083600 ms  DeleteObjects: 0.033000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
